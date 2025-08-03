@@ -1,0 +1,92 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{ {{ personal_info.first_name }} {{ personal_info.last_name }} }}\\[0.5em]
+  {{ personal_info.title }} \\
+  \vspace{1em}
+  Email: \texttt{ {{ personal_info.email }} } \\
+  Phone: {{ personal_info.phone }}
+\end{center}
+
+\section*{Summary}
+{{ summary }}
+
+\section*{Skills}
+\begin{itemize}
+{% for skill in skills %}
+  \item {{ skill.name }} — {{ skill.proficiency }}
+{% endfor %}
+\end{itemize}
+
+\section*{Education}
+\begin{itemize}
+{% for edu in education %}
+  \item {{ edu.degree }}, {{ edu.university }} ({{ edu.year }})
+{% endfor %}
+\end{itemize}
+
+\section*{Work Experience}
+
+\subsection*{Current}
+\begin{itemize}
+{% for job in work_experience.current %}
+  \item \textbf{ {{ job.position }} } — {{ job.company }} ({{ job.duration }}) \\
+    {{ job.description }}
+{% endfor %}
+\end{itemize}
+
+\subsection*{Previous}
+\begin{itemize}
+{% for job in work_experience.previous %}
+  \item \textbf{ {{ job.position }} } — {{ job.company }} ({{ job.duration }}) \\
+    {{ job.description }}
+{% endfor %}
+\end{itemize}
+
+\section*{Software Skills}
+\begin{itemize}
+{% for sw in software %}
+  \item {{ sw.name }} — {{ sw.proficiency }}
+{% endfor %}
+\end{itemize}
+
+\section*{Languages}
+\begin{itemize}
+{% for lang in languages %}
+  \item {{ lang.language }} — {{ lang.level }}
+{% endfor %}
+\end{itemize}
+
+\section*{Licenses and Certifications}
+\begin{itemize}
+{% for lic in licenses %}
+  \item {{ lic }}
+{% endfor %}
+\end{itemize}
+
+\section*{Instruments}
+\begin{itemize}
+{% for instr in instruments %}
+  \item {{ instr }}
+{% endfor %}
+\end{itemize}
+
+\section*{Portfolio}
+\begin{itemize}
+{% for item in portfolio %}
+  \item \texttt{\small {{ item }}}
+{% endfor %}
+\end{itemize}
+
+\section*{Notes}
+\begin{quote}
+{{ notes }}
+\end{quote}
+
+\end{document}

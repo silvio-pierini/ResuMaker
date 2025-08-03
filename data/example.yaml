@@ -1,0 +1,84 @@
+personal_info:
+  first_name: "Robert'"
+  last_name: "TABLE junior"
+  email: "bobby.table@neoverse.com"
+  phone: "+1 415 555 0199"
+  address: "42 Nebula Lane, Sector 7G, San Francisco, CA"
+  title: "R&D Specialist & Developer"
+
+summary: >
+  Experienced in 50% research & 50% development, proficient in Python, C++, and LaTeX. Strong testing in special characters.
+
+skills:
+  - name: "Data Analysis & Visualization"
+    proficiency: "Expert 100%"
+  - name: "Project Management"
+    proficiency: "Intermediate 75%"
+  - name: "Advanced Computational Methods"
+    proficiency: "Advanced 90%"
+  - name: "Quantum Computing Basics"
+    proficiency: "Beginner 30%"
+  - name: "Writing and Reviewing community Guides"
+    proficiency: "42%"
+
+education:
+  - degree: "M.Sc. in Computer Science & Engineering"
+    university: "University of Example #1"
+    year: 2020
+  - degree: "B.Sc. in Physics & Mathematics"
+    university: "Example State University"
+    year: 2017
+
+work_experience:
+  current:
+    - position: "R&D Specialist & Developer"
+      company: "Tech Solutions Ltd."
+      duration: "2021–Present"
+      description: "Developing AI systems in Python & C++. Occasionally authoring internal docs — always optimistic in approach."
+  previous:
+    - position: "Junior Developer"
+      company: "Innovatech #51"
+      duration: "2018–2021"
+      description: "Worked with C++ and managed databases. Passionate about clean code and unconventional humor."
+    - position: "Intern"
+      company: "Open Source Wizards"
+      duration: "2017"
+      description: "Contributed to web projects with emphasis on accessibility. Maintained documentation with Markdown and LaTeX."
+
+software:
+  - name: "Python"
+    proficiency: "Expert 95%"
+  - name: "C++"
+    proficiency: "Advanced 90%"
+  - name: "LaTeX"
+    proficiency: "Intermediate 70%"
+  - name: "Git & GitHub"
+    proficiency: "Expert 100%"
+  - name: "Docker & Kubernetes"
+    proficiency: "Intermediate 65%"
+
+languages:
+  - language: "English"
+    level: "Fluent & Professional"
+  - language: "Italian"
+    level: "Native Speaker"
+  - language: "Klingon"
+    level: "Conversational"
+
+licenses:
+  - "Driver’s License Class B"
+  - "First Aid & CPR Certification"
+
+instruments:
+  - "Oscilloscope & Multimeter"
+  - "3D Printer Pro Model"
+  - "Raspberry Pi & Arduino Kits"
+
+portfolio:
+  - "https://github.com/bobby_table/awesome-projects"
+  - "https://bobbycv.example.com/portfolio"
+
+notes: |
+  Frequently uses LaTeX special characters like %, $, #, &, _, { }, ~, ^, and \.
+  Believes in looking on the bright side of any problem.
+  Favorite command: if isPasswordCorrect && isFirstLoginAttempt { ERROR("Unexpected authentication error. We apologize for the inconvenience.") }
